@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=New+Amsterdam&display=swap" rel="stylesheet');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #F3F5FC;
+}
+
+.container{
+    margin: auto;
+    width: 960px;
+    height: 650px;
+    padding: 5px;
+    background-color: aliceblue;
+}
+
+.logo{
+    width: 100%;
+    float: left;
+}
+
+.izquierdo{
+    float: left;
+    width: 70%;
+    height: 70%;
+    border-radius: 24px;
+
+}
+
+.derecho{
+    float: right;
+    width: 30%;
+    height: auto;
+    border-radius: 24px;
+    background-color: white;
+
+}
+
+.botonesIzquierda{
+    float: left;
+    width: 70%;
+    height: auto;
+    border-radius: 24px;
+
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+}
+
+.logoImg{
+    margin-top: 1%;
+    margin-left: 5%;
+    float: inherit;
+}
+
+.titulo{
+    float:inherit;
+    margin-left: 20%;
+}
+
+.textoEntrada{
+    float: left;
+    margin-left: 10%;
+    margin-top: 10%;
+    width: 80%;
+    height: 80%;
+    color: #0A3871;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background: #F3F5FC;
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+
+}
+
+#imgDer{
+    margin-left: 2%;
+    margin-top:20%;
+    width: 90%;
+    height: auto;
+}
+
+#texto{
+    font-family: "Inter", bold;
+    font-size: 24px;
+    text-align: center;
+}
+
+#textArea2{
+    float: left;
+    text-align: center;
+    margin-left: 10%;
+    color: #0A3871;
+    width: 80%;
+    height: 60%;
+    border: none;
+    outline: none;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+}
+
+#btn-encriptar{
+    padding:24px;
+    width: 30%;
+    height: 60%;
+    border-radius: 24px;
+    margin-left: 15%;
+    background: #0A3871;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+}
+
+#btn-desencriptar{
+    padding:24px;
+    width: 30%;
+    height: 60%;
+    border-radius: 24px;
+    margin-left: 15%;
+    background: #D8DFE8;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+}
+
+#copy{
+    margin-left: 30%;
+    margin-top: 90%;
+    padding: 24px;
+    width: 40%;
+    height: 10%;
+    background: #D8DFE8;
+    border-radius: 24px;
+    display: none;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+}
+
+.footer{
+    background-color:#F3F5FC;
+    padding: 24px;
+    color: #0A3871;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+}
+
+@media (max-width: 1200px) {
+
+    .header{
+        padding: 10%
+    }
+
+    .header__menu{
+        justify-content: center;
+    }
+    
+    .presentacion{
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .presentacion__contenido{
+        width: auto;
+    }
+}
